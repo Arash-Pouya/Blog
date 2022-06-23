@@ -118,3 +118,17 @@ direction: rtl;
   text-decoration: none;
   color: black;
 }
+
+/* pagination */
+.page-link{
+  color: black;
+  /* background: linear-gradient(90deg, #ff9966, #ff5e62); */
+}
+.page-link:hover{
+background: linear-gradient(90deg, #ff9966, #ff5e62);
+color: white;
+}
+.page-link:active{
+  background: linear-gradient(90deg, #ff9966, #ff5e62);
+  color: white;
+}
