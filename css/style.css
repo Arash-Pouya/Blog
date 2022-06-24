@@ -466,3 +466,26 @@ form{
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
 }
+
+@media (max-width:400px ) {
+  .card-mobile{
+    width: 25%;
+  }
+.Blogpost{
+  width: 100%;
+  margin: auto;
+}
+button.toggle{
+  display: none;
+}
+.theme__icon{
+  width: 60%;
+  height: 60%;
+  /* background-color: black; */
+}
+.button-30{
+  width:60%;
+  height: 20%;
+  padding: 1px;
+}
+}
