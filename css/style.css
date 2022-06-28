@@ -496,11 +496,16 @@ button.toggle{
     border-radius: 10px;
   }
 .panel{
-  height:20%;
+  height:15%;
   /* backdrop-filter: blur(50px);
   background-color: rgba(0, 0, 0, 0); */
   top: 0;
   position: fixed;
+}
+.theme__button svg{
+  /* background-color: red; */
+  width: 100%;
+  height: 70%;
 }
 .toggle{
   display: none;
@@ -518,10 +523,6 @@ margin: 10px auto;
   }
 }
 @media (max-width:260px), (max-width:500px) {
-.card-mobile{
-  background-color: red;
-
-}
 /* .card {
   background-color: black;
   width: 100%;
