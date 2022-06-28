@@ -496,18 +496,14 @@ button.toggle{
     border-radius: 10px;
   }
 .panel{
-  height: 30%;
-  backdrop-filter: blur(50px);
-  background-color: rgba(0, 0, 0, 0);
-
-  flex-direction: row;
-  justify-content: space-between;
-  left: 0;
+  height:20%;
+  /* backdrop-filter: blur(50px);
+  background-color: rgba(0, 0, 0, 0); */
+  top: 0;
+  position: fixed;
 }
-.panel .button-30{
-  /* width:10%;
-  height: 10%;
-  padding: 1px; */
+.toggle{
+  display: none;
 }
 label.theme__button svg{
 /* background-color: red;
@@ -521,12 +517,27 @@ width: 100%;
 margin: 10px auto;
   }
 }
-@media  (max-width:377px) {
+@media (max-width:260px), (max-width:500px) {
+.card-mobile{
+  background-color: red;
+
+}
+/* .card {
+  background-color: black;
+  width: 100%;
+} */
+.card a img{
+  width: 100%;
+  height: 100%;
+} 
+.toggle{
+    display: none;
+  }
+
   .blog_post{
     width: 100%;
     font-size: 20px;
     margin: 10px auto;
-    /* background-color: #36395A; */
   }
 
   .blog_post h1,p{
