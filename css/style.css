@@ -495,12 +495,18 @@ button.toggle{
   .card{
     border-radius: 10px;
   }
+
 .panel{
   height:15%;
-  /* backdrop-filter: blur(50px);
-  background-color: rgba(0, 0, 0, 0); */
-  top: 0;
   position: fixed;
+  bottom: 0;
+  right: 0;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+ 
 }
 .theme__button svg{
   /* background-color: red; */
@@ -510,23 +516,8 @@ button.toggle{
 .toggle{
   display: none;
 }
-label.theme__button svg{
-/* background-color: red;
-width:50%;
-height: 50%; */
-/* padding: 0px; */
-}
-  .blog_post{
-    /* width: 100%; */
-width: 100%;
-margin: 10px auto;
-  }
 }
 @media (max-width:260px), (max-width:500px) {
-/* .card {
-  background-color: black;
-  width: 100%;
-} */
 .card a img{
   width: 100%;
   height: 100%;
@@ -535,14 +526,20 @@ margin: 10px auto;
     display: none;
   }
 
-  .blog_post{
-    width: 100%;
-    font-size: 20px;
-    margin: 10px auto;
+}
+@media (max-width:480px) {
+  /* .Blogpost{
+    width: 90%;
+    margin: 0 auto;
   }
 
-  .blog_post h1,p{
-    font-size: 20px;
+  .container_copy h3 {
+    font-size: 1rem;
   }
-
+  .container_copy h1 {
+    font-size: 1.5rem;
+  }
+  .container_copy p {
+    font-size: 1.5rem;
+  } */
 }
