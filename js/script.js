@@ -77,3 +77,5 @@ function myFunction() {
 //     img01.className = "modal-content";
 //   }, 400);
 // };
+
+//canvas/////
