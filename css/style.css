@@ -443,7 +443,11 @@ color: white;
   margin-top: 5%;
   margin-left: 20px;
 }
-
+.commentBTN{
+  display: flex;
+  justify-content: space-between;
+padding-bottom: 10px;
+}
 .darker{
   border: 1px solid #ecb21f;
   background-color: black;
